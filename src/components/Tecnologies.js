@@ -8,7 +8,7 @@ import firebase from "../img/firebase.png";
 
 const Tecnologies = () => {
   return (
-    <div className="pr-3 mx-3 text-center text-white border rounded-lg backdrop-filter backdrop-blur-sm">
+    <div className="py-5 pr-3 mx-3 text-center text-white border rounded-lg backdrop-filter backdrop-blur-sm">
       <h2 className="mb-5 text-3xl font-semibold">
         Principales tecnologías usadas en los proyectos
       </h2>
@@ -21,22 +21,22 @@ const Tecnologies = () => {
         <img src={react} alt="icono javscript" className="h-20 mb-3 ml-3" />
         <img
           src={tailwind}
-          alt="icono javscript"
+          alt="icono tailwind"
           className="h-20 mb-3 ml-3 bg-white rounded-xl"
         />
         <img
           src={html}
-          alt="icono javscript"
+          alt="icono html5"
           className="h-20 mb-3 ml-3 bg-white rounded-xl"
         />
         <img
           src={git}
-          alt="icono javscript"
+          alt="icono git"
           className="h-20 mb-3 ml-3 bg-white rounded-xl"
         />
         <img
           src={firebase}
-          alt="icono javscript"
+          alt="icono firebase"
           className="h-20 mb-3 ml-3 bg-white rounded-xl"
         />
       </div>

@@ -9,10 +9,10 @@ const Proyects = () => {
       <div className="justify-around mt-5 sm:flex">
         <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <h2 className="text-xl font-semibold text-center">
-            Diseño de pagina web Software Healt FC
+            Diseño de página web Software Healt FC
           </h2>
           <p>
-            Este es un emprendimiento en el cual se esta empezando a trabajar
+            Este es un emprendimiento en el cual sé está empezando a trabajar
             desde principios de febrero del 2021.
           </p>
           <a
@@ -58,9 +58,9 @@ const Proyects = () => {
             Proyecto en proceso
           </h2>
           <p>
-            Una aplicación en React JS para un cliente, se esta usando la
-            metodologia incremental, firebase como backend as a service y
-            conciste en la gestión de pacientes en un consultorio.
+            Una aplicación en React JS para un cliente, sé está usando la
+            metodología incremental, firebase como backend as a service y
+            consiste en la gestión de pacientes en un consultorio.
           </p>
           <a
             href="https://draclaudia.softwarehealtfc.com/"
