@@ -5,7 +5,7 @@ import contenido from "../img/contenido.svg";
 
 const Services = () => {
   return (
-    <div className="text-white ">
+    <div className="mb-10 text-white">
       <h2 className="pb-5 text-3xl font-semibold text-center ">¿Que Hago?</h2>
       <p className="px-3 pb-20 font-mono font-semibold text-center ">
         Aqui puedes ver una pequeña muestra de algunos proyectos que he
@@ -16,7 +16,7 @@ const Services = () => {
         <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <img
             src={responsive}
-            className="h-20 mx-auto mb-3 rounded-md"
+            className="mx-auto mb-3 rounded-md h-30"
             alt=""
           />
           <h2 className="text-xl font-semibold text-center">
@@ -31,7 +31,7 @@ const Services = () => {
         <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <img
             src={design}
-            className="h-20 mx-auto mb-3 bg-white rounded-md"
+            className="mx-auto mb-3 bg-white rounded-md h-30"
             alt=""
           />
           <h2 className="text-xl font-semibold text-center">
@@ -46,7 +46,7 @@ const Services = () => {
         <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <img
             src={contenido}
-            className="h-20 mx-auto mb-3 bg-white rounded-md"
+            className="mx-auto mb-3 bg-white rounded-md h-30"
             alt=""
           />
           <h2 className="text-xl font-semibold text-center">

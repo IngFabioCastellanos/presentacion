@@ -2,8 +2,8 @@ import React from "react";
 
 const Proyects = () => {
   return (
-    <div className="text-white">
-      <h2 className="text-2xl font-semibold text-center">
+    <div className="mb-10 text-white">
+      <h2 className="mb-10 text-2xl font-semibold text-center">
         Algunos de los proyectos que he realizado:
       </h2>
       <div className="justify-around mt-5 sm:flex">
