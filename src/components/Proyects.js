@@ -7,7 +7,7 @@ const Proyects = () => {
         Algunos de los proyectos que he realizado:
       </h2>
       <div className="justify-around mt-5 sm:flex">
-        <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <h2 className="text-xl font-semibold text-center">
             Diseño de pagina web Software Healt FC
           </h2>
@@ -27,11 +27,11 @@ const Proyects = () => {
             href="https://github.com/IngFabioCastellanos/softwarehealtfc"
             className="inline-block p-2 border rounded-md"
           >
-            Ver codigo fuente
+            Ver código fuente
           </a>
         </div>
 
-        <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <h2 className="text-xl font-semibold text-center">Lista de tareas</h2>
           <p>
             Una aplicación en React JS que gestiona tareas usando el
@@ -49,11 +49,11 @@ const Proyects = () => {
             href="https://github.com/IngFabioCastellanos/lista-de-tareas"
             className="inline-block p-2 border rounded-md"
           >
-            Ver codigo fuente
+            Ver código fuente
           </a>
         </div>
 
-        <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <h2 className="text-xl font-semibold text-center">
             Proyecto en proceso
           </h2>
@@ -68,6 +68,25 @@ const Proyects = () => {
             className="inline-block p-2 mr-2 border rounded-md"
           >
             Visitar sitio
+          </a>
+        </div>
+      </div>
+
+      <div className="justify-around mt-5 sm:flex">
+        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+          <h2 className="text-xl font-semibold text-center">
+            Aplicación para manejo de inventarios e insumos
+          </h2>
+          <p>
+            Realizada en Laravel 7, como proyecto para una empresa de
+            odontología independiente en la cuidad de Bogotá D.C
+          </p>
+          <a
+            href="https://github.com/IngFabioCastellanos/sistema-odontologia-mg"
+            target="_blank"
+            className="inline-block p-2 mr-2 border rounded-md"
+          >
+            Ver código fuente
           </a>
         </div>
       </div>

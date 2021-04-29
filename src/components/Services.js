@@ -8,12 +8,12 @@ const Services = () => {
     <div className="mb-10 text-white">
       <h2 className="pb-5 text-3xl font-semibold text-center ">¿Que Hago?</h2>
       <p className="px-3 pb-20 font-mono font-semibold text-center ">
-        Aqui puedes ver una pequeña muestra de algunos proyectos que he
-        realizado por hobbie o tal vez para algun conocido, tambien los
+        Aquí puedes ver una pequeña muestra de algunos proyectos que he
+        realizado por hobby o tal vez para algún conocido, también los
         principios usados en cada uno.
       </p>
       <div className="justify-around sm:flex">
-        <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <img
             src={responsive}
             className="mx-auto mb-3 rounded-md h-30"
@@ -23,12 +23,12 @@ const Services = () => {
             Diseño responsivo
           </h2>
           <p>
-            Cada aplicación o pagina web que diseño esta en la capacidad de
+            Cada aplicación o página web que diseño esta en la capacidad de
             adaptarse al tamaño de cualquier dispositivo
           </p>
         </div>
 
-        <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <img
             src={design}
             className="mx-auto mb-3 bg-white rounded-md h-30"
@@ -43,7 +43,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="p-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
           <img
             src={contenido}
             className="mx-auto mb-3 bg-white rounded-md h-30"

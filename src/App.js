@@ -1,7 +1,9 @@
+import Contactme from "./components/Contactme";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Proyects from "./components/Proyects";
 import Services from "./components/Services";
+import Tecnologies from "./components/Tecnologies";
 import image from "./img/background-image.jpg";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Home />
       <Services />
       <Proyects />
+      <Tecnologies />
+      <Contactme />
     </div>
   );
 }
