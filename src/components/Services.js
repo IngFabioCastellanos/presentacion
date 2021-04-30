@@ -13,7 +13,7 @@ const Services = () => {
         principios usados en cada uno.
       </p>
       <div className="justify-around sm:flex">
-        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div className="p-3 mx-3 mb-5 duration-200 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm hover:shadow-2xl">
           <img
             src={responsive}
             className="mx-auto mb-3 rounded-md h-30"
@@ -28,7 +28,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div className="p-3 mx-3 mb-5 duration-200 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm hover:shadow-2xl">
           <img
             src={design}
             className="mx-auto mb-3 bg-white rounded-md h-30"
@@ -43,7 +43,9 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="p-3 mx-3 mb-5 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm">
+        <div
+          className="p-3 mx-3 mb-5 duration-200 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm hover:shadow-2xl"
+        >
           <img
             src={contenido}
             className="mx-auto mb-3 bg-white rounded-md h-30"

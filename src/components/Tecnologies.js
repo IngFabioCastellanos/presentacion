@@ -16,28 +16,32 @@ const Tecnologies = () => {
         <img
           src={javascript}
           alt="icono javscript"
-          className="h-20 mb-3 ml-3"
+          className="h-20 mb-3 ml-3 duration-150 ease-linear transform hover:scale-125"
         />
-        <img src={react} alt="icono javscript" className="h-20 mb-3 ml-3" />
+        <img
+          src={react}
+          alt="icono javscript"
+          className="h-20 mb-3 ml-3 duration-150 ease-linear transform hover:scale-125"
+        />
         <img
           src={tailwind}
           alt="icono tailwind"
-          className="h-20 mb-3 ml-3 bg-white rounded-xl"
+          className="h-20 mb-3 ml-3 duration-150 ease-linear transform bg-white rounded-xl hover:scale-125"
         />
         <img
           src={html}
           alt="icono html5"
-          className="h-20 mb-3 ml-3 bg-white rounded-xl"
+          className="h-20 mb-3 ml-3 duration-150 ease-linear transform bg-white rounded-xl hover:scale-125"
         />
         <img
           src={git}
           alt="icono git"
-          className="h-20 mb-3 ml-3 bg-white rounded-xl"
+          className="h-20 mb-3 ml-3 duration-150 ease-linear transform bg-white rounded-xl hover:scale-125"
         />
         <img
           src={firebase}
           alt="icono firebase"
-          className="h-20 mb-3 ml-3 bg-white rounded-xl"
+          className="h-20 mb-3 ml-3 duration-150 ease-linear transform bg-white rounded-xl hover:scale-125"
         />
       </div>
     </div>
