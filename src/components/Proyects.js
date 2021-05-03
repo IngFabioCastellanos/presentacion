@@ -89,6 +89,30 @@ const Proyects = () => {
             Ver código fuente
           </a>
         </div>
+
+        <div className="p-3 mx-3 mb-5 duration-200 border rounded-md shadow-sm sm:w-1/4 backdrop-filter backdrop-blur-sm hover:shadow-2xl">
+          <h2 className="text-xl font-semibold text-center">
+            Prueba de desarrollo Sigma
+          </h2>
+          <p>
+            1. Prueba técnica de montaje y maquetación <br />
+            2. Prueba técnica de funcionalidad
+          </p>
+          <a
+            href="https://ingfabiocastellanos.github.io/prueba-de-desarrollo-Sigma/"
+            target="_blank"
+            className="inline-block p-2 mr-2 duration-200 transform border rounded-md hover:-rotate-6"
+          >
+            Visitar sitio
+          </a>
+          <a
+            href="https://github.com/IngFabioCastellanos/prueba-tecnica"
+            target="_blank"
+            className="inline-block p-2 mr-2 duration-200 transform border rounded-md hover:rotate-3"
+          >
+            Ver código fuente
+          </a>
+        </div>
       </div>
     </div>
   );
