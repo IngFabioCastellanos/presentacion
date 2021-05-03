@@ -106,7 +106,7 @@ const Proyects = () => {
             Visitar sitio
           </a>
           <a
-            href="https://github.com/IngFabioCastellanos/prueba-tecnica"
+            href="https://github.com/IngFabioCastellanos/prueba-de-desarrollo-Sigma"
             target="_blank"
             className="inline-block p-2 mr-2 duration-200 transform border rounded-md hover:rotate-3"
           >
